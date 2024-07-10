@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="messaging">
+    <output-path>$PROJECT_DIR$/out/artifacts/messaging</output-path>
+    <root id="archive" name="messaging.war">
+      <element id="javaee-facet-resources" facet="messagingApp/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="messagingApp" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ajitakarki.messagingapp.ChatController"
+      alignment="CENTER" spacing="10" padding="10">
+
+    <TextArea fx:id="chatArea" editable="false" wrapText="true" VBox.vgrow="ALWAYS"/>
+
+    <TextField fx:id="messageField" promptText="Type your message here..." onAction="#sendMessage"
+               VBox.vgrow="NEVER" />
+
+</VBox>
